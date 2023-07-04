@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    </head>
+    <body>
+
     <!---navbar html--->
-   <header class="header">
+    <header class="header">
     
 
     <nav class="navbar">
         
-        <div class="logo"><a href="#">jwetDé</a>
-        </div>
-        <div class="onglet">
-         <a href="#">Acceuil</a>
-        <a href="#">Contact</a>
-        </div>
+    <div class="logo"><a href="#">jwetDé</a>
+    </div>
+
+    <div class="onglet">
+    <a href="contact.html">Contact</a>
+    </div>
     </nav>
-   </header>
+    </header>
     </ul>
     </div>
     </nav>
+
+
+    <!--bouton accordion-->
+    <button class="accordion">les regles</button>
+
+    <div class="panel">
+      <p>Voici les règles du jeu : Le jeu comprend 2 joueurs sur un seul et même écran. Chaque joueur possède un score temporaire (ROUND) et un score global (GLOBAL). À chaque tour, le joueur a son ROUND initialisé à 0 et peut lancer un dé autant de fois qu'il le souhaite. Le résultat d’un lancer est ajouté au ROUND. Lors de son tour, le joueur peut décider à tout moment de:
+        Cliquer sur l’option “Hold”, qui permet d’envoyer les points du ROUND vers le GLOBAL. Ce sera alors le tour de l’autre joueur.
+        Lancer le dé. S’il obtient un 1, son score ROUND est perdu et c’est la fin de son tour.
+        Le premier joueur qui atteint les 100 points sur global gagne le jeu.</p>
+
+  </div>
+
+    <script src="/script.js"></script>
 </body>
 </html>
